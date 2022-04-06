@@ -89,6 +89,7 @@ if __name__ == "__main__":
     new_ckpt_path = os.path.join(model_save_path, '{}-UIH.ckpt'.format(name))
 
     # data for train
+    #
     # data_dir = './data_DL-VWI'
     # data_dir = '/media/chengjing/Elements/Dynamic data from ziwen'
     # with h5py.File(os.path.join(data_dir, './train_real.h5')) as f:
